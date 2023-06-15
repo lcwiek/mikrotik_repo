@@ -7,11 +7,12 @@
   - [blackip.ustc.edu.cn](https://blackip.ustc.edu.cn/list.php?txt)
   - [firehol_level1](https://iplists.firehol.org/files/firehol_level1.netset)
   - [Samhamsam](https://github.com/Samhamsam/blocklist_mikrotik)
+- clss_tor_exits
+  - [fissionrelays](https://lists.fissionrelays.net/tor/exits-ipv4.txt)
+  - [stathis](https://raw.githubusercontent.com/stathis/ros-tor-exits/master/tor-exits.rsc)
+- clss_tor_relay
+  - [fissionrelays](https://lists.fissionrelays.net/tor/relays-ipv4.txt)
 - blocklist_domain
-  - []()
-- tor_exits
-  - []()
-- tor-exits
   - []()
 
 # Updated
