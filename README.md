@@ -5,7 +5,7 @@
   - [abuseipdb](https://abuseipdb.com)
   - [antivirus.neu.edu.cn](http://antivirus.neu.edu.cn/ssh/lists/neu.txt)
   - [blackip.ustc.edu.cn](https://blackip.ustc.edu.cn/list.php?txt)
-  - [firehol_level1](https://iplists.firehol.org/files/firehol_level1.netset)
+  - [iplists.firehol.org](https://iplists.firehol.org)
   - [Samhamsam](https://github.com/Samhamsam/blocklist_mikrotik)
 - clss_tor_exits
   - [fissionrelays](https://lists.fissionrelays.net/tor/exits-ipv4.txt)
@@ -16,4 +16,4 @@
   - []()
 
 # Updated
-Every 6 h with crontab job
+Every 12 h with crontab job
