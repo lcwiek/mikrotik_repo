@@ -1,4 +1,4 @@
-# Generated on Mon Jun 19 19:40:24 UTC 2023 by coding.lifestyle Studio
+# Generated on Mon Jun 19 22:04:18 UTC 2023 by coding.lifestyle Studio
 /ip firewall address-list
 add list=clss_tor_exits address=101.58.180.233
 add list=clss_tor_exits address=102.130.113.9
@@ -315,6 +315,7 @@ add list=clss_tor_exits address=171.25.193.78
 add list=clss_tor_exits address=171.25.193.79
 add list=clss_tor_exits address=171.25.193.80
 add list=clss_tor_exits address=172.105.10.15
+add list=clss_tor_exits address=172.105.14.8
 add list=clss_tor_exits address=172.105.26.150
 add list=clss_tor_exits address=172.107.227.246
 add list=clss_tor_exits address=172.107.241.110
