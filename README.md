@@ -13,7 +13,7 @@
 - clss_tor_relay
   - [fissionrelays](https://lists.fissionrelays.net/tor/relays-ipv4.txt)
 - blocklist_domain
-  - []()
+  - [cert.pl](https://hole.cert.pl/domains/domains.txt)
 
 # Updated
 Every 12 h with crontab job
