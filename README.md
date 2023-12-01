@@ -8,10 +8,9 @@
   - [iplists.firehol.org](https://iplists.firehol.org)
   - [Samhamsam](https://github.com/Samhamsam/blocklist_mikrotik)
 - clss_tor_exits
-  - [fissionrelays](https://lists.fissionrelays.net/tor/exits-ipv4.txt)
-  - [stathis](https://raw.githubusercontent.com/stathis/ros-tor-exits/master/tor-exits.rsc)
+  - [onionoo.torproject.org](https://onionoo.torproject.org/details)
 - clss_tor_relay
-  - [fissionrelays](https://lists.fissionrelays.net/tor/relays-ipv4.txt)
+  - [onionoo.torproject.org](https://onionoo.torproject.org/details)
 - blocklist_domain
   - [cert.pl](https://hole.cert.pl/domains/domains.txt)
 
