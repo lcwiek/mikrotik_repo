@@ -1,4 +1,4 @@
-# Generated on Sat Jan 27 11:04:48 UTC 2024 by coding.lifestyle Studio
+# Generated on Sat Jan 27 11:47:40 UTC 2024 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_exits address=114.199.75.111
