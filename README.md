@@ -13,6 +13,9 @@
   - [onionoo.torproject.org](https://onionoo.torproject.org/details)
 - blocklist_domain
   - [cert.pl](https://hole.cert.pl/domains/domains.txt)
+- clss_cloudflare_ips
+  - [cloudflare v4](https://www.cloudflare.com/ips-v4)
+  - [cloudflare v4](https://www.cloudflare.com/ips-v6)
 
 # Updated
 Every 12 h with crontab job
