@@ -1,4 +1,4 @@
-# Generated on Thu Sep 12 22:04:56 UTC 2024 by coding.lifestyle Studio
+# Generated on Fri Sep 13 10:05:01 UTC 2024 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ipv6 firewall address-list
 add list=clss_cloudflare_ips_v6 address=2400:cb00::/32
