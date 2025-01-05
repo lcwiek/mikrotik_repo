@@ -1,4 +1,4 @@
-# Generated on Sun Jan  5 11:05:40 UTC 2025 by coding.lifestyle Studio
+# Generated on Sun Jan  5 23:05:25 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_exits address=114.35.245.150
@@ -41,6 +41,7 @@ add list=clss_tor_exits address=154.213.185.183
 add list=clss_tor_exits address=154.213.185.185
 add list=clss_tor_exits address=154.213.185.230
 add list=clss_tor_exits address=154.213.185.254
+add list=clss_tor_exits address=154.213.187.36
 add list=clss_tor_exits address=154.213.187.66
 add list=clss_tor_exits address=154.213.187.98
 add list=clss_tor_exits address=154.213.192.19
@@ -526,7 +527,6 @@ add list=clss_tor_exits address=193.26.115.43
 add list=clss_tor_exits address=193.26.115.61
 add list=clss_tor_exits address=193.32.162.96
 add list=clss_tor_exits address=193.36.132.21
-add list=clss_tor_exits address=193.41.226.117
 add list=clss_tor_exits address=193.43.72.218
 add list=clss_tor_exits address=193.70.80.213
 add list=clss_tor_exits address=194.15.112.133
@@ -912,6 +912,7 @@ add list=clss_tor_exits address=92.60.77.33
 add list=clss_tor_exits address=93.113.25.189
 add list=clss_tor_exits address=93.113.25.251
 add list=clss_tor_exits address=93.123.12.112
+add list=clss_tor_exits address=93.185.165.211
 add list=clss_tor_exits address=93.95.228.125
 add list=clss_tor_exits address=93.95.228.205
 add list=clss_tor_exits address=93.95.230.165
