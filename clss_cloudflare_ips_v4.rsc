@@ -1,4 +1,4 @@
-# Generated on Tue Jan  7 23:06:19 UTC 2025 by coding.lifestyle Studio
+# Generated on Wed Jan  8 11:06:07 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_cloudflare_ips_v4 address=103.21.244.0/22
