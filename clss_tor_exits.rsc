@@ -1,7 +1,8 @@
-# Generated on Fri Jan 24 23:05:46 UTC 2025 by coding.lifestyle Studio
+# Generated on Sat Jan 25 11:05:41 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_exits address=114.35.245.150
+add list=clss_tor_exits address=118.163.74.160
 add list=clss_tor_exits address=121.127.37.151
 add list=clss_tor_exits address=121.78.28.166
 add list=clss_tor_exits address=123.253.35.32
@@ -25,7 +26,6 @@ add list=clss_tor_exits address=144.172.118.4
 add list=clss_tor_exits address=144.172.118.55
 add list=clss_tor_exits address=144.172.118.73
 add list=clss_tor_exits address=146.103.40.37
-add list=clss_tor_exits address=146.19.143.47
 add list=clss_tor_exits address=146.59.126.232
 add list=clss_tor_exits address=146.59.231.4
 add list=clss_tor_exits address=146.70.146.26
@@ -124,6 +124,7 @@ add list=clss_tor_exits address=179.43.182.232
 add list=clss_tor_exits address=179.43.182.58
 add list=clss_tor_exits address=18.236.178.175
 add list=clss_tor_exits address=180.150.226.99
+add list=clss_tor_exits address=184.75.223.227
 add list=clss_tor_exits address=185.100.85.132
 add list=clss_tor_exits address=185.100.85.22
 add list=clss_tor_exits address=185.100.85.23
@@ -176,7 +177,6 @@ add list=clss_tor_exits address=185.183.157.214
 add list=clss_tor_exits address=185.183.159.40
 add list=clss_tor_exits address=185.191.204.254
 add list=clss_tor_exits address=185.193.52.180
-add list=clss_tor_exits address=185.195.236.55
 add list=clss_tor_exits address=185.195.71.244
 add list=clss_tor_exits address=185.207.107.130
 add list=clss_tor_exits address=185.207.107.216
@@ -661,7 +661,6 @@ add list=clss_tor_exits address=23.94.211.25
 add list=clss_tor_exits address=24.240.72.170
 add list=clss_tor_exits address=27.255.75.198
 add list=clss_tor_exits address=3.14.249.60
-add list=clss_tor_exits address=3.14.5.3
 add list=clss_tor_exits address=3.76.125.118
 add list=clss_tor_exits address=31.129.22.65
 add list=clss_tor_exits address=31.133.0.210
