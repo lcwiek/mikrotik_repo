@@ -1,83 +1,7 @@
-# Generated on Sat Feb  1 21:15:08 UTC 2025 by coding.lifestyle Studio
+# Generated on Sat Feb  1 23:04:42 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 # Pack 4/4
 /ip firewall address-list
-:do {add list=clss_wan_blacklist address=89.47.55.103} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.110} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.116} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.123} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.129} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.130} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.131} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.137} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.141} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.144} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.152} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.155} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.157} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.158} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.16} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.162} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.163} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.169} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.170} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.173} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.175} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.183} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.196} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.210} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.214} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.215} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.218} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.30} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.39} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.43} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.46} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.53} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.64} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.65} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.67} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.81} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.55.86} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.107} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.108} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.86} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.87} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.88} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.89} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.90} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.91} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.92} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.93} on-error={};
-:do {add list=clss_wan_blacklist address=89.47.62.94} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.10.65} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.11.168} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.15.108} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.16.58} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.16.60} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.18.210} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.2.255} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.31.39} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.32.131} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.35.231} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.38.9} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.41.156} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.41.251} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.44.129} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.45.162} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.46.213} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.48.135} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.54.72} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.57.128} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.59.150} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.59.52} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.60.208} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.63.126} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.63.200} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.7.168} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.7.49} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.72.126} on-error={};
-:do {add list=clss_wan_blacklist address=89.58.72.128} on-error={};
 :do {add list=clss_wan_blacklist address=89.58.72.130} on-error={};
 :do {add list=clss_wan_blacklist address=89.58.72.133} on-error={};
 :do {add list=clss_wan_blacklist address=89.58.72.135} on-error={};
@@ -201,7 +125,6 @@
 :do {add list=clss_wan_blacklist address=90.144.91.184} on-error={};
 :do {add list=clss_wan_blacklist address=90.146.32.100} on-error={};
 :do {add list=clss_wan_blacklist address=90.149.191.152} on-error={};
-:do {add list=clss_wan_blacklist address=90.149.229.189} on-error={};
 :do {add list=clss_wan_blacklist address=90.149.8.248} on-error={};
 :do {add list=clss_wan_blacklist address=90.15.143.234} on-error={};
 :do {add list=clss_wan_blacklist address=90.151.130.168} on-error={};
@@ -380,6 +303,7 @@
 :do {add list=clss_wan_blacklist address=90.247.107.68} on-error={};
 :do {add list=clss_wan_blacklist address=90.247.99.112} on-error={};
 :do {add list=clss_wan_blacklist address=90.249.224.172} on-error={};
+:do {add list=clss_wan_blacklist address=90.249.238.66} on-error={};
 :do {add list=clss_wan_blacklist address=90.249.9.78} on-error={};
 :do {add list=clss_wan_blacklist address=90.254.233.220} on-error={};
 :do {add list=clss_wan_blacklist address=90.26.47.6} on-error={};
@@ -2906,7 +2830,6 @@
 :do {add list=clss_wan_blacklist address=91.90.124.22} on-error={};
 :do {add list=clss_wan_blacklist address=91.90.124.23} on-error={};
 :do {add list=clss_wan_blacklist address=91.90.124.25} on-error={};
-:do {add list=clss_wan_blacklist address=91.90.124.26} on-error={};
 :do {add list=clss_wan_blacklist address=91.90.124.30} on-error={};
 :do {add list=clss_wan_blacklist address=91.90.124.7} on-error={};
 :do {add list=clss_wan_blacklist address=91.90.124.8} on-error={};
@@ -3687,6 +3610,7 @@
 :do {add list=clss_wan_blacklist address=92.205.185.112} on-error={};
 :do {add list=clss_wan_blacklist address=92.205.188.6} on-error={};
 :do {add list=clss_wan_blacklist address=92.205.19.142} on-error={};
+:do {add list=clss_wan_blacklist address=92.205.19.2} on-error={};
 :do {add list=clss_wan_blacklist address=92.205.197.54} on-error={};
 :do {add list=clss_wan_blacklist address=92.205.199.43} on-error={};
 :do {add list=clss_wan_blacklist address=92.205.2.54} on-error={};
@@ -3891,6 +3815,7 @@
 :do {add list=clss_wan_blacklist address=92.246.143.79} on-error={};
 :do {add list=clss_wan_blacklist address=92.246.201.231} on-error={};
 :do {add list=clss_wan_blacklist address=92.246.84.133} on-error={};
+:do {add list=clss_wan_blacklist address=92.246.89.231} on-error={};
 :do {add list=clss_wan_blacklist address=92.246.91.5} on-error={};
 :do {add list=clss_wan_blacklist address=92.247.101.73} on-error={};
 :do {add list=clss_wan_blacklist address=92.247.135.114} on-error={};
@@ -3982,7 +3907,6 @@
 :do {add list=clss_wan_blacklist address=92.255.39.18} on-error={};
 :do {add list=clss_wan_blacklist address=92.255.57.0/24} on-error={};
 :do {add list=clss_wan_blacklist address=92.255.57.103} on-error={};
-:do {add list=clss_wan_blacklist address=92.255.57.11} on-error={};
 :do {add list=clss_wan_blacklist address=92.255.57.118} on-error={};
 :do {add list=clss_wan_blacklist address=92.255.57.132} on-error={};
 :do {add list=clss_wan_blacklist address=92.255.57.184} on-error={};
@@ -5848,6 +5772,7 @@
 :do {add list=clss_wan_blacklist address=94.129.233.168} on-error={};
 :do {add list=clss_wan_blacklist address=94.13.56.28} on-error={};
 :do {add list=clss_wan_blacklist address=94.130.10.218} on-error={};
+:do {add list=clss_wan_blacklist address=94.130.125.90} on-error={};
 :do {add list=clss_wan_blacklist address=94.130.16.144} on-error={};
 :do {add list=clss_wan_blacklist address=94.130.161.185} on-error={};
 :do {add list=clss_wan_blacklist address=94.130.164.100} on-error={};
@@ -5971,6 +5896,7 @@
 :do {add list=clss_wan_blacklist address=94.136.187.173} on-error={};
 :do {add list=clss_wan_blacklist address=94.136.187.188} on-error={};
 :do {add list=clss_wan_blacklist address=94.136.189.204} on-error={};
+:do {add list=clss_wan_blacklist address=94.136.190.102} on-error={};
 :do {add list=clss_wan_blacklist address=94.136.191.197} on-error={};
 :do {add list=clss_wan_blacklist address=94.136.191.36} on-error={};
 :do {add list=clss_wan_blacklist address=94.137.17.114} on-error={};
@@ -6025,6 +5951,7 @@
 :do {add list=clss_wan_blacklist address=94.137.90.83} on-error={};
 :do {add list=clss_wan_blacklist address=94.137.90.84} on-error={};
 :do {add list=clss_wan_blacklist address=94.137.90.89} on-error={};
+:do {add list=clss_wan_blacklist address=94.137.90.9} on-error={};
 :do {add list=clss_wan_blacklist address=94.137.90.98} on-error={};
 :do {add list=clss_wan_blacklist address=94.137.91.100} on-error={};
 :do {add list=clss_wan_blacklist address=94.137.91.120} on-error={};
@@ -6413,6 +6340,7 @@
 :do {add list=clss_wan_blacklist address=94.156.177.124} on-error={};
 :do {add list=clss_wan_blacklist address=94.156.177.142} on-error={};
 :do {add list=clss_wan_blacklist address=94.156.177.147} on-error={};
+:do {add list=clss_wan_blacklist address=94.156.177.16} on-error={};
 :do {add list=clss_wan_blacklist address=94.156.177.168} on-error={};
 :do {add list=clss_wan_blacklist address=94.156.177.210} on-error={};
 :do {add list=clss_wan_blacklist address=94.156.177.26} on-error={};
@@ -6798,6 +6726,7 @@
 :do {add list=clss_wan_blacklist address=94.183.165.17} on-error={};
 :do {add list=clss_wan_blacklist address=94.183.172.59} on-error={};
 :do {add list=clss_wan_blacklist address=94.183.177.218} on-error={};
+:do {add list=clss_wan_blacklist address=94.183.181.125} on-error={};
 :do {add list=clss_wan_blacklist address=94.183.194.68} on-error={};
 :do {add list=clss_wan_blacklist address=94.183.210.129} on-error={};
 :do {add list=clss_wan_blacklist address=94.183.230.166} on-error={};
@@ -7007,9 +6936,7 @@
 :do {add list=clss_wan_blacklist address=94.23.183.172} on-error={};
 :do {add list=clss_wan_blacklist address=94.23.183.174} on-error={};
 :do {add list=clss_wan_blacklist address=94.23.203.202} on-error={};
-:do {add list=clss_wan_blacklist address=94.23.203.52} on-error={};
 :do {add list=clss_wan_blacklist address=94.23.204.27} on-error={};
-:do {add list=clss_wan_blacklist address=94.23.209.55} on-error={};
 :do {add list=clss_wan_blacklist address=94.23.209.89} on-error={};
 :do {add list=clss_wan_blacklist address=94.23.213.136} on-error={};
 :do {add list=clss_wan_blacklist address=94.23.219.142} on-error={};
@@ -9137,6 +9064,7 @@
 :do {add list=clss_wan_blacklist address=95.181.175.97} on-error={};
 :do {add list=clss_wan_blacklist address=95.181.186.144} on-error={};
 :do {add list=clss_wan_blacklist address=95.181.220.103} on-error={};
+:do {add list=clss_wan_blacklist address=95.181.230.191} on-error={};
 :do {add list=clss_wan_blacklist address=95.181.232.12} on-error={};
 :do {add list=clss_wan_blacklist address=95.181.232.21} on-error={};
 :do {add list=clss_wan_blacklist address=95.181.232.22} on-error={};
@@ -9560,6 +9488,7 @@
 :do {add list=clss_wan_blacklist address=95.216.112.243} on-error={};
 :do {add list=clss_wan_blacklist address=95.216.126.103} on-error={};
 :do {add list=clss_wan_blacklist address=95.216.139.24} on-error={};
+:do {add list=clss_wan_blacklist address=95.216.141.202} on-error={};
 :do {add list=clss_wan_blacklist address=95.216.159.224} on-error={};
 :do {add list=clss_wan_blacklist address=95.216.161.173} on-error={};
 :do {add list=clss_wan_blacklist address=95.216.17.210} on-error={};
@@ -10371,6 +10300,7 @@
 :do {add list=clss_wan_blacklist address=96.18.197.238} on-error={};
 :do {add list=clss_wan_blacklist address=96.18.200.26} on-error={};
 :do {add list=clss_wan_blacklist address=96.18.81.199} on-error={};
+:do {add list=clss_wan_blacklist address=96.19.186.3} on-error={};
 :do {add list=clss_wan_blacklist address=96.19.7.78} on-error={};
 :do {add list=clss_wan_blacklist address=96.19.84.119} on-error={};
 :do {add list=clss_wan_blacklist address=96.21.209.88} on-error={};
@@ -10451,6 +10381,7 @@
 :do {add list=clss_wan_blacklist address=96.43.107.211} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.107.218} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.107.3} on-error={};
+:do {add list=clss_wan_blacklist address=96.43.107.35} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.107.89} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.104} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.118} on-error={};
@@ -10458,7 +10389,9 @@
 :do {add list=clss_wan_blacklist address=96.43.109.130} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.152} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.167} on-error={};
+:do {add list=clss_wan_blacklist address=96.43.109.177} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.232} on-error={};
+:do {add list=clss_wan_blacklist address=96.43.109.233} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.39} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.50} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.53} on-error={};
@@ -10466,6 +10399,7 @@
 :do {add list=clss_wan_blacklist address=96.43.109.76} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.8} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.109.87} on-error={};
+:do {add list=clss_wan_blacklist address=96.43.109.88} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.125.126} on-error={};
 :do {add list=clss_wan_blacklist address=96.43.189.34} on-error={};
 :do {add list=clss_wan_blacklist address=96.44.109.188} on-error={};
@@ -10533,6 +10467,8 @@
 :do {add list=clss_wan_blacklist address=96.61.32.82} on-error={};
 :do {add list=clss_wan_blacklist address=96.62.149.194} on-error={};
 :do {add list=clss_wan_blacklist address=96.62.165.232} on-error={};
+:do {add list=clss_wan_blacklist address=96.62.184.13} on-error={};
+:do {add list=clss_wan_blacklist address=96.62.184.220} on-error={};
 :do {add list=clss_wan_blacklist address=96.62.194.28} on-error={};
 :do {add list=clss_wan_blacklist address=96.62.194.4} on-error={};
 :do {add list=clss_wan_blacklist address=96.64.54.162} on-error={};
@@ -10928,6 +10864,7 @@
 :do {add list=clss_wan_blacklist address=98.157.111.224} on-error={};
 :do {add list=clss_wan_blacklist address=98.158.192.244} on-error={};
 :do {add list=clss_wan_blacklist address=98.158.206.109} on-error={};
+:do {add list=clss_wan_blacklist address=98.158.233.24} on-error={};
 :do {add list=clss_wan_blacklist address=98.159.138.31} on-error={};
 :do {add list=clss_wan_blacklist address=98.159.224.110} on-error={};
 :do {add list=clss_wan_blacklist address=98.159.224.12} on-error={};
