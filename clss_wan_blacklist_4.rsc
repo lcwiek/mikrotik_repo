@@ -1,7 +1,20 @@
-# Generated on Sat Feb  1 15:11:39 UTC 2025 by coding.lifestyle Studio
+# Generated on Sat Feb  1 15:44:18 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 # Pack 4/4
 /ip firewall address-list
+:do {add list=clss_wan_blacklist address=90.165.150.172} on-error={};
+:do {add list=clss_wan_blacklist address=90.166.58.148} on-error={};
+:do {add list=clss_wan_blacklist address=90.167.167.185} on-error={};
+:do {add list=clss_wan_blacklist address=90.167.195.230} on-error={};
+:do {add list=clss_wan_blacklist address=90.167.202.143} on-error={};
+:do {add list=clss_wan_blacklist address=90.167.31.82} on-error={};
+:do {add list=clss_wan_blacklist address=90.167.55.201} on-error={};
+:do {add list=clss_wan_blacklist address=90.167.55.49} on-error={};
+:do {add list=clss_wan_blacklist address=90.167.7.118} on-error={};
+:do {add list=clss_wan_blacklist address=90.167.87.57} on-error={};
+:do {add list=clss_wan_blacklist address=90.168.140.157} on-error={};
+:do {add list=clss_wan_blacklist address=90.168.59.174} on-error={};
+:do {add list=clss_wan_blacklist address=90.169.229.186} on-error={};
 :do {add list=clss_wan_blacklist address=90.169.25.211} on-error={};
 :do {add list=clss_wan_blacklist address=90.169.27.185} on-error={};
 :do {add list=clss_wan_blacklist address=90.170.124.250} on-error={};
@@ -6352,7 +6365,6 @@
 :do {add list=clss_wan_blacklist address=94.159.111.37} on-error={};
 :do {add list=clss_wan_blacklist address=94.159.113.30} on-error={};
 :do {add list=clss_wan_blacklist address=94.159.113.35} on-error={};
-:do {add list=clss_wan_blacklist address=94.159.114.121} on-error={};
 :do {add list=clss_wan_blacklist address=94.159.114.26} on-error={};
 :do {add list=clss_wan_blacklist address=94.159.114.91} on-error={};
 :do {add list=clss_wan_blacklist address=94.159.134.151} on-error={};
@@ -9351,7 +9363,6 @@
 :do {add list=clss_wan_blacklist address=95.217.88.79} on-error={};
 :do {add list=clss_wan_blacklist address=95.217.88.84} on-error={};
 :do {add list=clss_wan_blacklist address=95.217.91.75} on-error={};
-:do {add list=clss_wan_blacklist address=95.217.94.68} on-error={};
 :do {add list=clss_wan_blacklist address=95.217.95.64} on-error={};
 :do {add list=clss_wan_blacklist address=95.217.96.50} on-error={};
 :do {add list=clss_wan_blacklist address=95.218.206.214} on-error={};
@@ -10204,6 +10215,7 @@
 :do {add list=clss_wan_blacklist address=96.55.30.114} on-error={};
 :do {add list=clss_wan_blacklist address=96.55.64.240} on-error={};
 :do {add list=clss_wan_blacklist address=96.56.184.26} on-error={};
+:do {add list=clss_wan_blacklist address=96.56.228.149} on-error={};
 :do {add list=clss_wan_blacklist address=96.56.247.162} on-error={};
 :do {add list=clss_wan_blacklist address=96.57.81.211} on-error={};
 :do {add list=clss_wan_blacklist address=96.59.196.237} on-error={};

@@ -1,4 +1,4 @@
-# Generated on Sat Feb  1 15:11:51 UTC 2025 by coding.lifestyle Studio
+# Generated on Sat Feb  1 15:44:30 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_relay address=1.123.1.3

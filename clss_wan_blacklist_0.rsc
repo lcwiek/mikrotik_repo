@@ -1,1 +1,1 @@
-:local packs_count 4
+:global clssWanBlacklistPacksCount 4
