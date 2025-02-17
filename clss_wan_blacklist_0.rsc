@@ -1,1 +1,1 @@
-:global clssWanBlacklistPacksCount 4
+:global clssWanBlacklistPacksCount 2
