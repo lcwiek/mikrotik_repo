@@ -1,4 +1,4 @@
-# Generated on Fri Aug  1 10:00:34 UTC 2025 by coding.lifestyle Studio
+# Generated on Fri Aug  1 22:00:31 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_exits address=114.172.205.8
@@ -14,6 +14,7 @@ add list=clss_tor_exits address=124.198.131.62
 add list=clss_tor_exits address=124.198.132.13
 add list=clss_tor_exits address=124.198.132.172
 add list=clss_tor_exits address=124.198.132.237
+add list=clss_tor_exits address=124.198.132.52
 add list=clss_tor_exits address=125.212.241.131
 add list=clss_tor_exits address=125.253.56.119
 add list=clss_tor_exits address=128.31.0.13
@@ -41,6 +42,7 @@ add list=clss_tor_exits address=152.32.206.127
 add list=clss_tor_exits address=152.53.106.19
 add list=clss_tor_exits address=152.53.133.14
 add list=clss_tor_exits address=152.53.53.243
+add list=clss_tor_exits address=154.26.159.157
 add list=clss_tor_exits address=154.41.95.1
 add list=clss_tor_exits address=154.41.95.2
 add list=clss_tor_exits address=154.53.58.161
@@ -137,6 +139,7 @@ add list=clss_tor_exits address=185.100.87.136
 add list=clss_tor_exits address=185.100.87.166
 add list=clss_tor_exits address=185.100.87.174
 add list=clss_tor_exits address=185.100.87.41
+add list=clss_tor_exits address=185.104.120.10
 add list=clss_tor_exits address=185.104.120.30
 add list=clss_tor_exits address=185.104.120.40
 add list=clss_tor_exits address=185.106.102.102
@@ -172,6 +175,22 @@ add list=clss_tor_exits address=185.193.52.180
 add list=clss_tor_exits address=185.195.71.244
 add list=clss_tor_exits address=185.207.107.130
 add list=clss_tor_exits address=185.207.107.216
+add list=clss_tor_exits address=185.220.100.240
+add list=clss_tor_exits address=185.220.100.241
+add list=clss_tor_exits address=185.220.100.242
+add list=clss_tor_exits address=185.220.100.243
+add list=clss_tor_exits address=185.220.100.244
+add list=clss_tor_exits address=185.220.100.245
+add list=clss_tor_exits address=185.220.100.246
+add list=clss_tor_exits address=185.220.100.247
+add list=clss_tor_exits address=185.220.100.248
+add list=clss_tor_exits address=185.220.100.249
+add list=clss_tor_exits address=185.220.100.250
+add list=clss_tor_exits address=185.220.100.251
+add list=clss_tor_exits address=185.220.100.252
+add list=clss_tor_exits address=185.220.100.253
+add list=clss_tor_exits address=185.220.100.254
+add list=clss_tor_exits address=185.220.100.255
 add list=clss_tor_exits address=185.220.101.100
 add list=clss_tor_exits address=185.220.101.101
 add list=clss_tor_exits address=185.220.101.102
@@ -212,7 +231,6 @@ add list=clss_tor_exits address=185.220.101.154
 add list=clss_tor_exits address=185.220.101.155
 add list=clss_tor_exits address=185.220.101.156
 add list=clss_tor_exits address=185.220.101.157
-add list=clss_tor_exits address=185.220.101.158
 add list=clss_tor_exits address=185.220.101.160
 add list=clss_tor_exits address=185.220.101.162
 add list=clss_tor_exits address=185.220.101.163
@@ -415,7 +433,6 @@ add list=clss_tor_exits address=193.32.162.104
 add list=clss_tor_exits address=193.32.162.96
 add list=clss_tor_exits address=193.36.132.21
 add list=clss_tor_exits address=193.70.38.13
-add list=clss_tor_exits address=194.110.247.121
 add list=clss_tor_exits address=194.113.38.5
 add list=clss_tor_exits address=194.15.112.133
 add list=clss_tor_exits address=194.15.113.118
@@ -555,11 +572,13 @@ add list=clss_tor_exits address=23.129.64.163
 add list=clss_tor_exits address=23.129.64.164
 add list=clss_tor_exits address=23.129.64.165
 add list=clss_tor_exits address=23.137.248.100
+add list=clss_tor_exits address=23.137.253.109
 add list=clss_tor_exits address=23.137.253.254
 add list=clss_tor_exits address=23.137.253.27
 add list=clss_tor_exits address=23.137.254.244
 add list=clss_tor_exits address=23.151.8.8
 add list=clss_tor_exits address=23.155.8.104
+add list=clss_tor_exits address=23.184.48.13
 add list=clss_tor_exits address=23.184.48.78
 add list=clss_tor_exits address=23.191.200.10
 add list=clss_tor_exits address=23.191.200.11
