@@ -1,4 +1,4 @@
-# Generated on Tue Sep 23 22:00:49 UTC 2025 by coding.lifestyle Studio
+# Generated on Wed Sep 24 10:00:47 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip dns static
 :do {add address="195.187.6.34" comment="CLSS HCD" name=""} on-error={};
