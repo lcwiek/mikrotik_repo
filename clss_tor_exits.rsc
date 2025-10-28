@@ -1,4 +1,4 @@
-# Generated on Mon Oct 27 23:00:50 UTC 2025 by coding.lifestyle Studio
+# Generated on Tue Oct 28 11:00:40 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_exits address=114.35.245.150
@@ -375,6 +375,7 @@ add list=clss_tor_exits address=185.40.4.92
 add list=clss_tor_exits address=185.42.170.203
 add list=clss_tor_exits address=185.56.171.94
 add list=clss_tor_exits address=185.67.82.114
+add list=clss_tor_exits address=185.76.243.68
 add list=clss_tor_exits address=185.82.219.109
 add list=clss_tor_exits address=188.239.191.25
 add list=clss_tor_exits address=188.68.36.28
@@ -436,9 +437,11 @@ add list=clss_tor_exits address=192.76.160.131
 add list=clss_tor_exits address=192.76.160.132
 add list=clss_tor_exits address=192.76.160.133
 add list=clss_tor_exits address=192.76.160.134
+add list=clss_tor_exits address=192.76.160.135
 add list=clss_tor_exits address=192.76.160.136
 add list=clss_tor_exits address=192.76.160.137
 add list=clss_tor_exits address=192.76.160.138
+add list=clss_tor_exits address=192.76.160.139
 add list=clss_tor_exits address=192.76.160.140
 add list=clss_tor_exits address=192.76.160.141
 add list=clss_tor_exits address=192.76.160.142
@@ -447,6 +450,7 @@ add list=clss_tor_exits address=192.76.160.144
 add list=clss_tor_exits address=192.76.160.145
 add list=clss_tor_exits address=192.76.160.146
 add list=clss_tor_exits address=192.76.160.147
+add list=clss_tor_exits address=192.76.160.148
 add list=clss_tor_exits address=192.76.160.149
 add list=clss_tor_exits address=192.76.160.150
 add list=clss_tor_exits address=192.76.160.151
@@ -917,6 +921,7 @@ add list=clss_tor_exits address=51.81.222.62
 add list=clss_tor_exits address=51.91.18.151
 add list=clss_tor_exits address=54.36.101.21
 add list=clss_tor_exits address=54.36.108.162
+add list=clss_tor_exits address=54.39.132.85
 add list=clss_tor_exits address=57.128.212.103
 add list=clss_tor_exits address=57.128.220.107
 add list=clss_tor_exits address=57.129.91.235
