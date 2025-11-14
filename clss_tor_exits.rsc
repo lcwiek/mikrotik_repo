@@ -1,8 +1,7 @@
-# Generated on Thu Nov 13 23:00:54 UTC 2025 by coding.lifestyle Studio
+# Generated on Fri Nov 14 11:00:53 UTC 2025 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_exits address=114.35.245.150
-add list=clss_tor_exits address=118.163.74.160
 add list=clss_tor_exits address=121.78.28.166
 add list=clss_tor_exits address=123.253.35.32
 add list=clss_tor_exits address=124.198.131.108
@@ -501,6 +500,7 @@ add list=clss_tor_exits address=198.58.107.53
 add list=clss_tor_exits address=198.96.155.3
 add list=clss_tor_exits address=198.98.48.33
 add list=clss_tor_exits address=198.98.51.189
+add list=clss_tor_exits address=198.98.51.249
 add list=clss_tor_exits address=198.98.57.151
 add list=clss_tor_exits address=198.98.57.218
 add list=clss_tor_exits address=198.98.57.74
@@ -587,7 +587,6 @@ add list=clss_tor_exits address=23.129.64.147
 add list=clss_tor_exits address=23.129.64.148
 add list=clss_tor_exits address=23.129.64.149
 add list=clss_tor_exits address=23.129.64.150
-add list=clss_tor_exits address=23.129.64.151
 add list=clss_tor_exits address=23.129.64.152
 add list=clss_tor_exits address=23.129.64.153
 add list=clss_tor_exits address=23.129.64.154
@@ -631,7 +630,6 @@ add list=clss_tor_exits address=23.129.64.191
 add list=clss_tor_exits address=23.129.64.192
 add list=clss_tor_exits address=23.129.64.193
 add list=clss_tor_exits address=23.129.64.194
-add list=clss_tor_exits address=23.129.64.195
 add list=clss_tor_exits address=23.129.64.196
 add list=clss_tor_exits address=23.129.64.197
 add list=clss_tor_exits address=23.129.64.198
@@ -786,6 +784,7 @@ add list=clss_tor_exits address=45.141.119.29
 add list=clss_tor_exits address=45.141.215.110
 add list=clss_tor_exits address=45.141.215.111
 add list=clss_tor_exits address=45.141.215.114
+add list=clss_tor_exits address=45.141.215.156
 add list=clss_tor_exits address=45.141.215.169
 add list=clss_tor_exits address=45.141.215.17
 add list=clss_tor_exits address=45.141.215.19
