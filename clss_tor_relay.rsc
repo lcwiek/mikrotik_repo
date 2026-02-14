@@ -1,16 +1,14 @@
-# Generated on Sat Feb 14 11:00:42 UTC 2026 by coding.lifestyle Studio
+# Generated on Sat Feb 14 23:00:43 UTC 2026 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_relay address=1.156.48.99
 add list=clss_tor_relay address=1.161.156.228
-add list=clss_tor_relay address=1.175.71.15
+add list=clss_tor_relay address=1.175.88.9
 add list=clss_tor_relay address=1.201.176.169
 add list=clss_tor_relay address=1.201.176.176
 add list=clss_tor_relay address=1.34.44.234
-add list=clss_tor_relay address=111.95.100.227
 add list=clss_tor_relay address=113.20.28.216
 add list=clss_tor_relay address=113.20.28.243
-add list=clss_tor_relay address=113.53.147.104
 add list=clss_tor_relay address=114.23.118.149
 add list=clss_tor_relay address=114.23.164.80
 add list=clss_tor_relay address=114.35.245.150
@@ -32,6 +30,7 @@ add list=clss_tor_relay address=116.202.82.204
 add list=clss_tor_relay address=116.203.114.93
 add list=clss_tor_relay address=116.203.127.203
 add list=clss_tor_relay address=116.203.129.6
+add list=clss_tor_relay address=116.203.135.195
 add list=clss_tor_relay address=116.203.17.238
 add list=clss_tor_relay address=116.203.228.23
 add list=clss_tor_relay address=116.203.50.182
@@ -39,7 +38,6 @@ add list=clss_tor_relay address=116.255.1.163
 add list=clss_tor_relay address=116.255.43.122
 add list=clss_tor_relay address=117.53.155.113
 add list=clss_tor_relay address=118.163.74.160
-add list=clss_tor_relay address=118.166.218.177
 add list=clss_tor_relay address=118.200.60.171
 add list=clss_tor_relay address=118.211.41.89
 add list=clss_tor_relay address=118.27.12.40
@@ -107,7 +105,6 @@ add list=clss_tor_relay address=128.31.0.39
 add list=clss_tor_relay address=128.31.0.61
 add list=clss_tor_relay address=128.52.132.189
 add list=clss_tor_relay address=129.100.38.89
-add list=clss_tor_relay address=129.122.76.107
 add list=clss_tor_relay address=129.13.131.140
 add list=clss_tor_relay address=129.146.122.189
 add list=clss_tor_relay address=129.146.187.135
@@ -115,7 +112,6 @@ add list=clss_tor_relay address=129.146.43.72
 add list=clss_tor_relay address=129.151.170.233
 add list=clss_tor_relay address=129.151.193.106
 add list=clss_tor_relay address=129.151.203.69
-add list=clss_tor_relay address=129.151.206.128
 add list=clss_tor_relay address=129.151.218.233
 add list=clss_tor_relay address=129.151.222.17
 add list=clss_tor_relay address=129.151.231.183
@@ -257,10 +253,7 @@ add list=clss_tor_relay address=136.35.54.224
 add list=clss_tor_relay address=136.35.70.104
 add list=clss_tor_relay address=136.37.133.139
 add list=clss_tor_relay address=136.38.226.125
-add list=clss_tor_relay address=136.38.229.170
-add list=clss_tor_relay address=136.38.50.110
 add list=clss_tor_relay address=136.47.213.188
-add list=clss_tor_relay address=136.50.226.34
 add list=clss_tor_relay address=136.51.68.72
 add list=clss_tor_relay address=136.52.24.21
 add list=clss_tor_relay address=136.60.214.166
@@ -276,6 +269,7 @@ add list=clss_tor_relay address=137.220.19.130
 add list=clss_tor_relay address=137.220.37.214
 add list=clss_tor_relay address=137.226.34.45
 add list=clss_tor_relay address=137.74.114.130
+add list=clss_tor_relay address=137.74.115.48
 add list=clss_tor_relay address=137.74.115.63
 add list=clss_tor_relay address=137.74.119.109
 add list=clss_tor_relay address=137.74.164.213
@@ -341,7 +335,6 @@ add list=clss_tor_relay address=139.59.58.109
 add list=clss_tor_relay address=139.59.85.179
 add list=clss_tor_relay address=139.60.50.133
 add list=clss_tor_relay address=139.60.54.24
-add list=clss_tor_relay address=139.60.60.14
 add list=clss_tor_relay address=139.68.226.122
 add list=clss_tor_relay address=139.84.166.51
 add list=clss_tor_relay address=139.84.237.160
@@ -409,7 +402,6 @@ add list=clss_tor_relay address=141.147.54.226
 add list=clss_tor_relay address=141.147.89.141
 add list=clss_tor_relay address=141.150.137.99
 add list=clss_tor_relay address=141.156.139.147
-add list=clss_tor_relay address=141.179.15.58
 add list=clss_tor_relay address=141.227.135.234
 add list=clss_tor_relay address=141.227.137.150
 add list=clss_tor_relay address=141.227.158.95
@@ -546,6 +538,7 @@ add list=clss_tor_relay address=145.239.88.76
 add list=clss_tor_relay address=145.239.93.202
 add list=clss_tor_relay address=145.40.199.236
 add list=clss_tor_relay address=145.79.1.246
+add list=clss_tor_relay address=145.82.54.83
 add list=clss_tor_relay address=146.0.36.21
 add list=clss_tor_relay address=146.0.36.87
 add list=clss_tor_relay address=146.0.40.193
@@ -665,7 +658,6 @@ add list=clss_tor_relay address=149.202.85.99
 add list=clss_tor_relay address=149.210.164.144
 add list=clss_tor_relay address=149.210.164.228
 add list=clss_tor_relay address=149.224.221.158
-add list=clss_tor_relay address=149.233.220.155
 add list=clss_tor_relay address=149.248.54.124
 add list=clss_tor_relay address=149.248.57.167
 add list=clss_tor_relay address=149.28.132.118
@@ -756,7 +748,7 @@ add list=clss_tor_relay address=151.242.30.113
 add list=clss_tor_relay address=151.242.30.153
 add list=clss_tor_relay address=151.26.81.15
 add list=clss_tor_relay address=151.30.43.17
-add list=clss_tor_relay address=151.59.145.150
+add list=clss_tor_relay address=151.59.104.157
 add list=clss_tor_relay address=151.67.4.179
 add list=clss_tor_relay address=151.71.186.7
 add list=clss_tor_relay address=151.71.19.26
@@ -828,6 +820,7 @@ add list=clss_tor_relay address=152.67.73.234
 add list=clss_tor_relay address=152.69.183.132
 add list=clss_tor_relay address=152.70.101.250
 add list=clss_tor_relay address=152.70.175.13
+add list=clss_tor_relay address=152.70.98.201
 add list=clss_tor_relay address=152.86.6.232
 add list=clss_tor_relay address=152.89.170.178
 add list=clss_tor_relay address=152.89.170.201
@@ -942,7 +935,6 @@ add list=clss_tor_relay address=159.195.63.29
 add list=clss_tor_relay address=159.195.7.229
 add list=clss_tor_relay address=159.195.85.151
 add list=clss_tor_relay address=159.195.95.186
-add list=clss_tor_relay address=159.196.130.39
 add list=clss_tor_relay address=159.196.185.163
 add list=clss_tor_relay address=159.196.197.176
 add list=clss_tor_relay address=159.196.207.135
@@ -981,7 +973,6 @@ add list=clss_tor_relay address=160.119.253.103
 add list=clss_tor_relay address=160.119.253.114
 add list=clss_tor_relay address=160.16.122.68
 add list=clss_tor_relay address=160.16.57.39
-add list=clss_tor_relay address=160.178.2.72
 add list=clss_tor_relay address=160.187.1.243
 add list=clss_tor_relay address=160.187.148.71
 add list=clss_tor_relay address=160.25.135.247
@@ -1022,7 +1013,6 @@ add list=clss_tor_relay address=162.224.115.204
 add list=clss_tor_relay address=162.226.250.137
 add list=clss_tor_relay address=162.243.168.143
 add list=clss_tor_relay address=162.243.173.63
-add list=clss_tor_relay address=162.246.205.7
 add list=clss_tor_relay address=162.247.153.131
 add list=clss_tor_relay address=162.250.189.204
 add list=clss_tor_relay address=162.250.189.33
@@ -1059,6 +1049,7 @@ add list=clss_tor_relay address=163.220.236.41
 add list=clss_tor_relay address=163.44.127.171
 add list=clss_tor_relay address=163.5.143.141
 add list=clss_tor_relay address=163.61.39.45
+add list=clss_tor_relay address=163.61.74.17
 add list=clss_tor_relay address=164.132.226.30
 add list=clss_tor_relay address=164.132.23.184
 add list=clss_tor_relay address=164.132.75.248
@@ -1117,7 +1108,6 @@ add list=clss_tor_relay address=167.235.74.7
 add list=clss_tor_relay address=167.248.162.156
 add list=clss_tor_relay address=167.253.78.22
 add list=clss_tor_relay address=167.56.181.149
-add list=clss_tor_relay address=167.58.230.110
 add list=clss_tor_relay address=167.71.202.62
 add list=clss_tor_relay address=167.71.216.22
 add list=clss_tor_relay address=167.71.52.174
@@ -1205,7 +1195,6 @@ add list=clss_tor_relay address=172.111.139.6
 add list=clss_tor_relay address=172.114.36.102
 add list=clss_tor_relay address=172.127.92.239
 add list=clss_tor_relay address=172.13.139.9
-add list=clss_tor_relay address=172.219.67.149
 add list=clss_tor_relay address=172.221.253.249
 add list=clss_tor_relay address=172.232.111.152
 add list=clss_tor_relay address=172.232.134.231
@@ -1246,7 +1235,6 @@ add list=clss_tor_relay address=172.245.34.244
 add list=clss_tor_relay address=172.245.35.149
 add list=clss_tor_relay address=172.245.55.112
 add list=clss_tor_relay address=172.249.17.2
-add list=clss_tor_relay address=172.251.8.59
 add list=clss_tor_relay address=172.252.236.190
 add list=clss_tor_relay address=172.252.236.56
 add list=clss_tor_relay address=172.81.131.139
@@ -1293,7 +1281,6 @@ add list=clss_tor_relay address=173.255.245.116
 add list=clss_tor_relay address=173.3.70.83
 add list=clss_tor_relay address=173.48.216.170
 add list=clss_tor_relay address=173.56.237.92
-add list=clss_tor_relay address=173.62.77.47
 add list=clss_tor_relay address=173.70.208.226
 add list=clss_tor_relay address=173.70.246.68
 add list=clss_tor_relay address=173.70.249.3
@@ -1311,7 +1298,6 @@ add list=clss_tor_relay address=174.20.255.181
 add list=clss_tor_relay address=174.34.132.72
 add list=clss_tor_relay address=174.53.171.141
 add list=clss_tor_relay address=174.65.150.116
-add list=clss_tor_relay address=174.73.213.189
 add list=clss_tor_relay address=174.88.244.204
 add list=clss_tor_relay address=174.91.24.202
 add list=clss_tor_relay address=174.94.90.178
@@ -1349,6 +1335,7 @@ add list=clss_tor_relay address=176.126.86.160
 add list=clss_tor_relay address=176.129.204.191
 add list=clss_tor_relay address=176.136.249.135
 add list=clss_tor_relay address=176.150.204.179
+add list=clss_tor_relay address=176.190.7.214
 add list=clss_tor_relay address=176.198.159.33
 add list=clss_tor_relay address=176.199.122.184
 add list=clss_tor_relay address=176.199.152.220
@@ -1393,7 +1380,6 @@ add list=clss_tor_relay address=177.92.128.121
 add list=clss_tor_relay address=177.93.140.66
 add list=clss_tor_relay address=178.128.118.97
 add list=clss_tor_relay address=178.128.160.54
-add list=clss_tor_relay address=178.130.131.198
 add list=clss_tor_relay address=178.132.0.6
 add list=clss_tor_relay address=178.143.55.78
 add list=clss_tor_relay address=178.156.145.195
@@ -1498,14 +1484,14 @@ add list=clss_tor_relay address=179.14.199.121
 add list=clss_tor_relay address=179.15.189.47
 add list=clss_tor_relay address=179.15.213.195
 add list=clss_tor_relay address=179.219.5.141
+add list=clss_tor_relay address=179.36.16.156
 add list=clss_tor_relay address=179.36.186.131
 add list=clss_tor_relay address=179.36.205.149
 add list=clss_tor_relay address=179.36.62.141
-add list=clss_tor_relay address=179.37.193.196
-add list=clss_tor_relay address=179.37.36.103
 add list=clss_tor_relay address=179.37.51.241
 add list=clss_tor_relay address=179.38.105.15
 add list=clss_tor_relay address=179.38.135.117
+add list=clss_tor_relay address=179.38.179.56
 add list=clss_tor_relay address=179.38.191.86
 add list=clss_tor_relay address=179.38.21.4
 add list=clss_tor_relay address=179.38.24.176
@@ -1566,13 +1552,11 @@ add list=clss_tor_relay address=180.150.77.240
 add list=clss_tor_relay address=180.56.83.18
 add list=clss_tor_relay address=180.58.205.5
 add list=clss_tor_relay address=181.121.178.29
-add list=clss_tor_relay address=181.122.241.67
 add list=clss_tor_relay address=181.136.70.102
 add list=clss_tor_relay address=181.14.41.58
 add list=clss_tor_relay address=181.14.57.212
 add list=clss_tor_relay address=181.160.219.131
 add list=clss_tor_relay address=181.161.78.239
-add list=clss_tor_relay address=181.162.56.119
 add list=clss_tor_relay address=181.164.47.100
 add list=clss_tor_relay address=181.164.98.177
 add list=clss_tor_relay address=181.167.69.233
@@ -1582,12 +1566,10 @@ add list=clss_tor_relay address=181.192.13.135
 add list=clss_tor_relay address=181.197.217.75
 add list=clss_tor_relay address=181.2.2.24
 add list=clss_tor_relay address=181.20.191.252
-add list=clss_tor_relay address=181.20.5.147
 add list=clss_tor_relay address=181.20.6.42
 add list=clss_tor_relay address=181.20.8.176
 add list=clss_tor_relay address=181.214.147.110
 add list=clss_tor_relay address=181.215.45.194
-add list=clss_tor_relay address=181.224.211.237
 add list=clss_tor_relay address=181.226.252.101
 add list=clss_tor_relay address=181.229.171.234
 add list=clss_tor_relay address=181.23.104.212
@@ -1602,7 +1584,6 @@ add list=clss_tor_relay address=181.231.226.34
 add list=clss_tor_relay address=181.24.148.222
 add list=clss_tor_relay address=181.24.157.98
 add list=clss_tor_relay address=181.24.19.217
-add list=clss_tor_relay address=181.25.205.207
 add list=clss_tor_relay address=181.26.178.10
 add list=clss_tor_relay address=181.26.188.199
 add list=clss_tor_relay address=181.26.216.123
@@ -1611,19 +1592,16 @@ add list=clss_tor_relay address=181.28.182.129
 add list=clss_tor_relay address=181.31.91.187
 add list=clss_tor_relay address=181.4.109.15
 add list=clss_tor_relay address=181.4.19.123
-add list=clss_tor_relay address=181.43.109.41
+add list=clss_tor_relay address=181.43.109.71
 add list=clss_tor_relay address=181.44.123.136
 add list=clss_tor_relay address=181.44.224.49
 add list=clss_tor_relay address=181.44.38.21
-add list=clss_tor_relay address=181.45.207.232
-add list=clss_tor_relay address=181.46.231.59
 add list=clss_tor_relay address=181.46.238.108
 add list=clss_tor_relay address=181.47.60.112
 add list=clss_tor_relay address=181.51.150.174
 add list=clss_tor_relay address=181.69.159.242
 add list=clss_tor_relay address=181.73.207.239
 add list=clss_tor_relay address=181.81.26.25
-add list=clss_tor_relay address=181.84.99.114
 add list=clss_tor_relay address=181.89.236.57
 add list=clss_tor_relay address=181.91.215.146
 add list=clss_tor_relay address=181.94.163.164
@@ -1637,7 +1615,6 @@ add list=clss_tor_relay address=184.147.83.44
 add list=clss_tor_relay address=184.15.201.85
 add list=clss_tor_relay address=184.162.41.36
 add list=clss_tor_relay address=184.166.188.193
-add list=clss_tor_relay address=184.17.88.130
 add list=clss_tor_relay address=184.174.38.53
 add list=clss_tor_relay address=184.174.96.18
 add list=clss_tor_relay address=184.181.118.105
@@ -2224,7 +2201,7 @@ add list=clss_tor_relay address=185.99.2.117
 add list=clss_tor_relay address=185.99.2.143
 add list=clss_tor_relay address=185.99.2.160
 add list=clss_tor_relay address=185.99.2.90
-add list=clss_tor_relay address=186.104.106.105
+add list=clss_tor_relay address=186.104.112.54
 add list=clss_tor_relay address=186.108.163.253
 add list=clss_tor_relay address=186.108.248.100
 add list=clss_tor_relay address=186.109.120.251
@@ -2236,12 +2213,8 @@ add list=clss_tor_relay address=186.128.74.116
 add list=clss_tor_relay address=186.129.16.123
 add list=clss_tor_relay address=186.129.19.160
 add list=clss_tor_relay address=186.129.4.4
-add list=clss_tor_relay address=186.132.112.111
-add list=clss_tor_relay address=186.132.115.26
-add list=clss_tor_relay address=186.132.223.26
 add list=clss_tor_relay address=186.132.228.99
 add list=clss_tor_relay address=186.132.240.63
-add list=clss_tor_relay address=186.132.33.100
 add list=clss_tor_relay address=186.132.58.215
 add list=clss_tor_relay address=186.132.96.149
 add list=clss_tor_relay address=186.134.181.99
@@ -2261,7 +2234,6 @@ add list=clss_tor_relay address=186.19.64.224
 add list=clss_tor_relay address=186.19.91.82
 add list=clss_tor_relay address=186.194.190.30
 add list=clss_tor_relay address=186.203.59.165
-add list=clss_tor_relay address=186.210.101.154
 add list=clss_tor_relay address=186.22.68.247
 add list=clss_tor_relay address=186.22.88.17
 add list=clss_tor_relay address=186.22.89.225
@@ -2271,16 +2243,14 @@ add list=clss_tor_relay address=186.23.82.54
 add list=clss_tor_relay address=186.233.185.59
 add list=clss_tor_relay address=186.233.185.61
 add list=clss_tor_relay address=186.39.108.113
-add list=clss_tor_relay address=186.39.129.195
 add list=clss_tor_relay address=186.39.62.80
 add list=clss_tor_relay address=186.39.70.206
 add list=clss_tor_relay address=186.39.71.105
 add list=clss_tor_relay address=186.39.76.9
 add list=clss_tor_relay address=186.39.89.137
-add list=clss_tor_relay address=186.39.93.123
 add list=clss_tor_relay address=186.56.141.163
 add list=clss_tor_relay address=186.57.104.220
-add list=clss_tor_relay address=186.57.126.113
+add list=clss_tor_relay address=186.57.124.40
 add list=clss_tor_relay address=186.57.170.194
 add list=clss_tor_relay address=186.57.183.242
 add list=clss_tor_relay address=186.57.196.237
@@ -2288,20 +2258,18 @@ add list=clss_tor_relay address=186.57.227.53
 add list=clss_tor_relay address=186.57.24.175
 add list=clss_tor_relay address=186.57.254.140
 add list=clss_tor_relay address=186.57.90.40
-add list=clss_tor_relay address=186.61.108.7
 add list=clss_tor_relay address=186.61.135.56
 add list=clss_tor_relay address=186.61.158.75
 add list=clss_tor_relay address=186.62.104.120
 add list=clss_tor_relay address=186.62.73.175
-add list=clss_tor_relay address=186.68.215.190
 add list=clss_tor_relay address=187.147.131.141
 add list=clss_tor_relay address=187.150.76.124
 add list=clss_tor_relay address=187.154.126.113
 add list=clss_tor_relay address=187.170.159.20
 add list=clss_tor_relay address=187.198.107.121
-add list=clss_tor_relay address=187.201.219.216
 add list=clss_tor_relay address=187.207.117.75
 add list=clss_tor_relay address=187.21.222.209
+add list=clss_tor_relay address=187.213.7.23
 add list=clss_tor_relay address=187.226.147.136
 add list=clss_tor_relay address=187.234.23.163
 add list=clss_tor_relay address=187.235.221.245
@@ -2313,7 +2281,6 @@ add list=clss_tor_relay address=188.129.35.40
 add list=clss_tor_relay address=188.136.113.213
 add list=clss_tor_relay address=188.138.112.60
 add list=clss_tor_relay address=188.141.60.190
-add list=clss_tor_relay address=188.149.13.13
 add list=clss_tor_relay address=188.149.239.234
 add list=clss_tor_relay address=188.155.240.245
 add list=clss_tor_relay address=188.165.0.43
@@ -2333,7 +2300,7 @@ add list=clss_tor_relay address=188.166.136.51
 add list=clss_tor_relay address=188.166.225.240
 add list=clss_tor_relay address=188.166.87.136
 add list=clss_tor_relay address=188.172.228.104
-add list=clss_tor_relay address=188.174.206.208
+add list=clss_tor_relay address=188.174.196.229
 add list=clss_tor_relay address=188.192.191.25
 add list=clss_tor_relay address=188.194.191.45
 add list=clss_tor_relay address=188.195.48.170
@@ -2343,9 +2310,6 @@ add list=clss_tor_relay address=188.213.94.245
 add list=clss_tor_relay address=188.213.95.146
 add list=clss_tor_relay address=188.214.132.18
 add list=clss_tor_relay address=188.214.132.49
-add list=clss_tor_relay address=188.214.88.31
-add list=clss_tor_relay address=188.214.88.32
-add list=clss_tor_relay address=188.214.88.33
 add list=clss_tor_relay address=188.217.191.74
 add list=clss_tor_relay address=188.225.217.82
 add list=clss_tor_relay address=188.239.191.25
@@ -2384,14 +2348,13 @@ add list=clss_tor_relay address=188.68.50.174
 add list=clss_tor_relay address=188.68.50.76
 add list=clss_tor_relay address=188.68.52.231
 add list=clss_tor_relay address=188.68.60.91
-add list=clss_tor_relay address=189.133.130.92
 add list=clss_tor_relay address=189.133.172.133
 add list=clss_tor_relay address=189.137.230.249
 add list=clss_tor_relay address=189.138.192.171
 add list=clss_tor_relay address=189.145.79.230
+add list=clss_tor_relay address=189.15.76.69
 add list=clss_tor_relay address=189.150.255.194
 add list=clss_tor_relay address=189.164.112.190
-add list=clss_tor_relay address=189.179.235.189
 add list=clss_tor_relay address=189.186.107.93
 add list=clss_tor_relay address=189.229.209.107
 add list=clss_tor_relay address=189.236.41.72
@@ -2423,12 +2386,10 @@ add list=clss_tor_relay address=190.173.180.239
 add list=clss_tor_relay address=190.173.39.28
 add list=clss_tor_relay address=190.173.54.188
 add list=clss_tor_relay address=190.174.0.130
-add list=clss_tor_relay address=190.174.151.171
 add list=clss_tor_relay address=190.174.247.116
 add list=clss_tor_relay address=190.174.46.19
 add list=clss_tor_relay address=190.175.12.156
 add list=clss_tor_relay address=190.175.58.49
-add list=clss_tor_relay address=190.175.86.229
 add list=clss_tor_relay address=190.18.83.252
 add list=clss_tor_relay address=190.189.253.242
 add list=clss_tor_relay address=190.189.63.148
@@ -2455,6 +2416,7 @@ add list=clss_tor_relay address=190.249.3.105
 add list=clss_tor_relay address=190.34.47.137
 add list=clss_tor_relay address=190.4.116.8
 add list=clss_tor_relay address=190.4.123.17
+add list=clss_tor_relay address=190.4.125.244
 add list=clss_tor_relay address=190.48.12.81
 add list=clss_tor_relay address=190.48.65.121
 add list=clss_tor_relay address=190.49.112.216
@@ -2468,8 +2430,8 @@ add list=clss_tor_relay address=191.101.31.45
 add list=clss_tor_relay address=191.103.33.57
 add list=clss_tor_relay address=191.113.206.175
 add list=clss_tor_relay address=191.114.106.211
-add list=clss_tor_relay address=191.114.13.148
 add list=clss_tor_relay address=191.114.206.215
+add list=clss_tor_relay address=191.114.9.3
 add list=clss_tor_relay address=191.115.218.70
 add list=clss_tor_relay address=191.115.235.68
 add list=clss_tor_relay address=191.187.239.93
@@ -2682,6 +2644,7 @@ add list=clss_tor_relay address=193.142.59.53
 add list=clss_tor_relay address=193.160.96.55
 add list=clss_tor_relay address=193.168.143.113
 add list=clss_tor_relay address=193.168.144.76
+add list=clss_tor_relay address=193.178.59.42
 add list=clss_tor_relay address=193.180.97.8
 add list=clss_tor_relay address=193.182.111.131
 add list=clss_tor_relay address=193.182.111.132
@@ -2742,7 +2705,6 @@ add list=clss_tor_relay address=193.31.25.141
 add list=clss_tor_relay address=193.31.26.123
 add list=clss_tor_relay address=193.31.27.109
 add list=clss_tor_relay address=193.31.27.127
-add list=clss_tor_relay address=193.31.6.67
 add list=clss_tor_relay address=193.32.162.86
 add list=clss_tor_relay address=193.32.87.151
 add list=clss_tor_relay address=193.36.132.21
@@ -2945,13 +2907,10 @@ add list=clss_tor_relay address=196.3.205.169
 add list=clss_tor_relay address=196.64.221.229
 add list=clss_tor_relay address=196.74.105.97
 add list=clss_tor_relay address=197.1.222.159
-add list=clss_tor_relay address=197.11.186.120
 add list=clss_tor_relay address=197.146.252.177
 add list=clss_tor_relay address=197.146.38.185
 add list=clss_tor_relay address=197.15.215.220
 add list=clss_tor_relay address=197.2.168.186
-add list=clss_tor_relay address=197.204.175.165
-add list=clss_tor_relay address=197.238.158.0
 add list=clss_tor_relay address=197.240.206.165
 add list=clss_tor_relay address=197.244.94.114
 add list=clss_tor_relay address=197.3.209.237
@@ -2968,7 +2927,7 @@ add list=clss_tor_relay address=198.140.141.52
 add list=clss_tor_relay address=198.145.121.179
 add list=clss_tor_relay address=198.145.121.181
 add list=clss_tor_relay address=198.145.121.182
-add list=clss_tor_relay address=198.167.206.251
+add list=clss_tor_relay address=198.167.206.144
 add list=clss_tor_relay address=198.180.150.9
 add list=clss_tor_relay address=198.199.84.111
 add list=clss_tor_relay address=198.199.85.240
@@ -3048,6 +3007,7 @@ add list=clss_tor_relay address=199.58.81.140
 add list=clss_tor_relay address=199.68.199.194
 add list=clss_tor_relay address=2.201.177.30
 add list=clss_tor_relay address=2.204.221.5
+add list=clss_tor_relay address=2.205.198.119
 add list=clss_tor_relay address=2.248.153.219
 add list=clss_tor_relay address=2.35.23.134
 add list=clss_tor_relay address=2.56.10.29
@@ -3085,33 +3045,28 @@ add list=clss_tor_relay address=200.117.46.124
 add list=clss_tor_relay address=200.117.56.27
 add list=clss_tor_relay address=200.122.181.2
 add list=clss_tor_relay address=200.122.181.78
-add list=clss_tor_relay address=200.125.126.115
 add list=clss_tor_relay address=200.150.100.13
-add list=clss_tor_relay address=200.28.153.80
+add list=clss_tor_relay address=200.28.159.84
 add list=clss_tor_relay address=200.28.163.164
 add list=clss_tor_relay address=201.105.91.47
 add list=clss_tor_relay address=201.138.152.46
 add list=clss_tor_relay address=201.145.73.53
 add list=clss_tor_relay address=201.176.242.141
 add list=clss_tor_relay address=201.177.144.95
-add list=clss_tor_relay address=201.177.148.243
 add list=clss_tor_relay address=201.177.15.49
 add list=clss_tor_relay address=201.177.22.32
 add list=clss_tor_relay address=201.177.239.175
 add list=clss_tor_relay address=201.177.252.120
-add list=clss_tor_relay address=201.177.26.91
-add list=clss_tor_relay address=201.177.84.163
-add list=clss_tor_relay address=201.177.91.60
 add list=clss_tor_relay address=201.179.187.3
 add list=clss_tor_relay address=201.180.83.109
 add list=clss_tor_relay address=201.180.93.90
 add list=clss_tor_relay address=201.189.218.96
 add list=clss_tor_relay address=201.190.226.49
-add list=clss_tor_relay address=201.232.169.165
 add list=clss_tor_relay address=201.254.2.98
 add list=clss_tor_relay address=201.51.57.114
 add list=clss_tor_relay address=202.152.197.46
 add list=clss_tor_relay address=202.169.99.195
+add list=clss_tor_relay address=202.171.168.51
 add list=clss_tor_relay address=202.179.230.100
 add list=clss_tor_relay address=202.59.9.238
 add list=clss_tor_relay address=202.61.193.116
@@ -3280,7 +3235,6 @@ add list=clss_tor_relay address=206.71.158.54
 add list=clss_tor_relay address=206.71.158.84
 add list=clss_tor_relay address=206.81.25.191
 add list=clss_tor_relay address=207.135.238.9
-add list=clss_tor_relay address=207.138.217.93
 add list=clss_tor_relay address=207.148.2.45
 add list=clss_tor_relay address=207.154.210.97
 add list=clss_tor_relay address=207.179.247.154
@@ -3314,6 +3268,7 @@ add list=clss_tor_relay address=208.115.216.54
 add list=clss_tor_relay address=208.115.218.134
 add list=clss_tor_relay address=208.15.30.154
 add list=clss_tor_relay address=208.38.228.104
+add list=clss_tor_relay address=208.38.243.113
 add list=clss_tor_relay address=208.59.51.181
 add list=clss_tor_relay address=208.64.169.190
 add list=clss_tor_relay address=208.72.154.158
@@ -3339,7 +3294,6 @@ add list=clss_tor_relay address=209.133.196.22
 add list=clss_tor_relay address=209.141.32.198
 add list=clss_tor_relay address=209.141.34.15
 add list=clss_tor_relay address=209.141.36.145
-add list=clss_tor_relay address=209.141.36.7
 add list=clss_tor_relay address=209.141.40.68
 add list=clss_tor_relay address=209.141.41.25
 add list=clss_tor_relay address=209.141.45.141
@@ -3567,7 +3521,6 @@ add list=clss_tor_relay address=217.154.23.190
 add list=clss_tor_relay address=217.154.237.41
 add list=clss_tor_relay address=217.154.4.242
 add list=clss_tor_relay address=217.154.40.66
-add list=clss_tor_relay address=217.154.42.119
 add list=clss_tor_relay address=217.154.51.180
 add list=clss_tor_relay address=217.154.58.238
 add list=clss_tor_relay address=217.154.59.107
@@ -3610,7 +3563,6 @@ add list=clss_tor_relay address=217.170.201.71
 add list=clss_tor_relay address=217.180.225.55
 add list=clss_tor_relay address=217.182.73.157
 add list=clss_tor_relay address=217.182.75.199
-add list=clss_tor_relay address=217.195.148.106
 add list=clss_tor_relay address=217.195.151.211
 add list=clss_tor_relay address=217.196.147.77
 add list=clss_tor_relay address=217.199.199.250
@@ -3631,7 +3583,7 @@ add list=clss_tor_relay address=217.76.159.216
 add list=clss_tor_relay address=217.79.181.76
 add list=clss_tor_relay address=217.79.184.106
 add list=clss_tor_relay address=217.79.252.202
-add list=clss_tor_relay address=217.82.113.25
+add list=clss_tor_relay address=217.83.164.88
 add list=clss_tor_relay address=217.84.235.22
 add list=clss_tor_relay address=217.85.170.233
 add list=clss_tor_relay address=217.94.148.145
@@ -3941,6 +3893,7 @@ add list=clss_tor_relay address=24.72.211.148
 add list=clss_tor_relay address=24.99.80.216
 add list=clss_tor_relay address=27.102.138.244
 add list=clss_tor_relay address=27.125.159.139
+add list=clss_tor_relay address=3.109.62.63
 add list=clss_tor_relay address=3.110.120.113
 add list=clss_tor_relay address=3.17.205.125
 add list=clss_tor_relay address=3.232.111.51
@@ -4015,6 +3968,7 @@ add list=clss_tor_relay address=35.214.42.105
 add list=clss_tor_relay address=35.216.172.46
 add list=clss_tor_relay address=35.216.64.221
 add list=clss_tor_relay address=35.217.31.90
+add list=clss_tor_relay address=36.229.4.69
 add list=clss_tor_relay address=37.1.197.16
 add list=clss_tor_relay address=37.107.51.5
 add list=clss_tor_relay address=37.114.42.239
@@ -4214,8 +4168,8 @@ add list=clss_tor_relay address=38.96.254.230
 add list=clss_tor_relay address=38.99.95.12
 add list=clss_tor_relay address=40.160.7.222
 add list=clss_tor_relay address=40.233.126.36
-add list=clss_tor_relay address=42.114.101.186
-add list=clss_tor_relay address=42.191.118.50
+add list=clss_tor_relay address=41.62.13.153
+add list=clss_tor_relay address=42.119.123.184
 add list=clss_tor_relay address=43.131.49.195
 add list=clss_tor_relay address=43.157.103.27
 add list=clss_tor_relay address=43.157.157.73
@@ -4361,6 +4315,7 @@ add list=clss_tor_relay address=45.150.108.116
 add list=clss_tor_relay address=45.153.124.152
 add list=clss_tor_relay address=45.154.28.70
 add list=clss_tor_relay address=45.154.98.33
+add list=clss_tor_relay address=45.155.140.175
 add list=clss_tor_relay address=45.155.170.60
 add list=clss_tor_relay address=45.155.53.68
 add list=clss_tor_relay address=45.155.54.13
@@ -4485,7 +4440,6 @@ add list=clss_tor_relay address=45.84.107.54
 add list=clss_tor_relay address=45.84.107.55
 add list=clss_tor_relay address=45.84.107.74
 add list=clss_tor_relay address=45.84.107.76
-add list=clss_tor_relay address=45.84.107.84
 add list=clss_tor_relay address=45.84.107.97
 add list=clss_tor_relay address=45.84.196.162
 add list=clss_tor_relay address=45.86.153.182
@@ -4645,7 +4599,6 @@ add list=clss_tor_relay address=46.8.227.169
 add list=clss_tor_relay address=47.145.209.199
 add list=clss_tor_relay address=47.147.181.58
 add list=clss_tor_relay address=47.147.56.146
-add list=clss_tor_relay address=47.147.95.183
 add list=clss_tor_relay address=47.149.12.149
 add list=clss_tor_relay address=47.149.187.97
 add list=clss_tor_relay address=47.151.72.70
@@ -4700,6 +4653,7 @@ add list=clss_tor_relay address=49.13.76.37
 add list=clss_tor_relay address=49.150.244.77
 add list=clss_tor_relay address=49.158.238.41
 add list=clss_tor_relay address=49.177.125.155
+add list=clss_tor_relay address=49.187.10.68
 add list=clss_tor_relay address=49.247.136.174
 add list=clss_tor_relay address=49.247.136.38
 add list=clss_tor_relay address=49.251.235.228
@@ -4744,6 +4698,7 @@ add list=clss_tor_relay address=5.181.77.8
 add list=clss_tor_relay address=5.181.80.101
 add list=clss_tor_relay address=5.181.80.169
 add list=clss_tor_relay address=5.181.80.181
+add list=clss_tor_relay address=5.187.197.240
 add list=clss_tor_relay address=5.187.253.192
 add list=clss_tor_relay address=5.189.173.8
 add list=clss_tor_relay address=5.189.176.236
@@ -4869,6 +4824,7 @@ add list=clss_tor_relay address=50.103.128.207
 add list=clss_tor_relay address=50.108.1.180
 add list=clss_tor_relay address=50.116.51.101
 add list=clss_tor_relay address=50.118.225.16
+add list=clss_tor_relay address=50.121.88.182
 add list=clss_tor_relay address=50.126.133.66
 add list=clss_tor_relay address=50.127.67.58
 add list=clss_tor_relay address=50.159.9.79
@@ -4879,12 +4835,12 @@ add list=clss_tor_relay address=50.35.32.244
 add list=clss_tor_relay address=50.35.74.70
 add list=clss_tor_relay address=50.35.85.210
 add list=clss_tor_relay address=50.47.225.49
-add list=clss_tor_relay address=50.54.188.28
 add list=clss_tor_relay address=50.54.202.116
 add list=clss_tor_relay address=50.65.178.92
 add list=clss_tor_relay address=50.7.154.218
 add list=clss_tor_relay address=50.71.200.227
 add list=clss_tor_relay address=50.80.155.5
+add list=clss_tor_relay address=50.96.118.132
 add list=clss_tor_relay address=51.15.15.183
 add list=clss_tor_relay address=51.15.15.45
 add list=clss_tor_relay address=51.15.15.81
@@ -5052,6 +5008,7 @@ add list=clss_tor_relay address=54.37.80.38
 add list=clss_tor_relay address=54.38.241.237
 add list=clss_tor_relay address=54.38.33.66
 add list=clss_tor_relay address=54.39.52.18
+add list=clss_tor_relay address=57.128.170.236
 add list=clss_tor_relay address=57.128.180.74
 add list=clss_tor_relay address=57.128.214.90
 add list=clss_tor_relay address=57.128.22.90
@@ -5090,7 +5047,6 @@ add list=clss_tor_relay address=62.143.66.43
 add list=clss_tor_relay address=62.149.23.133
 add list=clss_tor_relay address=62.151.180.251
 add list=clss_tor_relay address=62.155.206.137
-add list=clss_tor_relay address=62.165.241.83
 add list=clss_tor_relay address=62.168.3.212
 add list=clss_tor_relay address=62.169.19.54
 add list=clss_tor_relay address=62.169.23.180
@@ -5115,6 +5071,7 @@ add list=clss_tor_relay address=62.238.237.242
 add list=clss_tor_relay address=62.3.71.107
 add list=clss_tor_relay address=62.38.144.238
 add list=clss_tor_relay address=62.44.211.88
+add list=clss_tor_relay address=62.49.53.63
 add list=clss_tor_relay address=62.60.232.182
 add list=clss_tor_relay address=62.60.232.4
 add list=clss_tor_relay address=62.66.145.248
@@ -5164,7 +5121,6 @@ add list=clss_tor_relay address=64.235.43.104
 add list=clss_tor_relay address=64.235.61.194
 add list=clss_tor_relay address=64.251.255.9
 add list=clss_tor_relay address=64.252.193.67
-add list=clss_tor_relay address=64.253.91.31
 add list=clss_tor_relay address=64.31.62.158
 add list=clss_tor_relay address=64.42.176.50
 add list=clss_tor_relay address=64.52.108.69
@@ -5953,7 +5909,6 @@ add list=clss_tor_relay address=64.65.63.90
 add list=clss_tor_relay address=64.65.63.95
 add list=clss_tor_relay address=64.65.63.99
 add list=clss_tor_relay address=64.89.161.194
-add list=clss_tor_relay address=64.89.222.113
 add list=clss_tor_relay address=64.95.10.169
 add list=clss_tor_relay address=64.98.115.32
 add list=clss_tor_relay address=64.99.146.230
@@ -6116,7 +6071,6 @@ add list=clss_tor_relay address=69.126.112.52
 add list=clss_tor_relay address=69.144.66.204
 add list=clss_tor_relay address=69.163.77.166
 add list=clss_tor_relay address=69.173.187.109
-add list=clss_tor_relay address=69.201.216.203
 add list=clss_tor_relay address=69.209.100.183
 add list=clss_tor_relay address=69.218.211.90
 add list=clss_tor_relay address=69.243.58.246
@@ -6136,6 +6090,7 @@ add list=clss_tor_relay address=70.134.238.84
 add list=clss_tor_relay address=70.134.248.71
 add list=clss_tor_relay address=70.16.38.144
 add list=clss_tor_relay address=70.170.27.104
+add list=clss_tor_relay address=70.175.65.238
 add list=clss_tor_relay address=70.175.76.239
 add list=clss_tor_relay address=70.179.36.58
 add list=clss_tor_relay address=70.181.245.242
@@ -6165,7 +6120,6 @@ add list=clss_tor_relay address=71.179.169.86
 add list=clss_tor_relay address=71.179.180.145
 add list=clss_tor_relay address=71.179.205.138
 add list=clss_tor_relay address=71.182.197.125
-add list=clss_tor_relay address=71.187.156.69
 add list=clss_tor_relay address=71.188.111.51
 add list=clss_tor_relay address=71.19.144.106
 add list=clss_tor_relay address=71.19.144.124
@@ -6180,7 +6134,6 @@ add list=clss_tor_relay address=71.24.145.6
 add list=clss_tor_relay address=71.241.10.147
 add list=clss_tor_relay address=71.241.11.44
 add list=clss_tor_relay address=71.244.170.31
-add list=clss_tor_relay address=71.247.44.109
 add list=clss_tor_relay address=71.248.161.179
 add list=clss_tor_relay address=71.250.7.80
 add list=clss_tor_relay address=71.254.209.192
@@ -6189,7 +6142,6 @@ add list=clss_tor_relay address=71.38.162.140
 add list=clss_tor_relay address=71.42.125.218
 add list=clss_tor_relay address=71.57.199.145
 add list=clss_tor_relay address=71.7.96.152
-add list=clss_tor_relay address=71.73.224.67
 add list=clss_tor_relay address=71.90.218.202
 add list=clss_tor_relay address=72.10.237.12
 add list=clss_tor_relay address=72.11.128.90
@@ -6205,12 +6157,10 @@ add list=clss_tor_relay address=72.2.144.4
 add list=clss_tor_relay address=72.208.213.188
 add list=clss_tor_relay address=72.208.49.253
 add list=clss_tor_relay address=72.211.49.235
-add list=clss_tor_relay address=72.220.141.92
 add list=clss_tor_relay address=72.235.129.116
 add list=clss_tor_relay address=72.27.36.22
 add list=clss_tor_relay address=72.45.168.60
 add list=clss_tor_relay address=72.5.43.62
-add list=clss_tor_relay address=72.56.75.153
 add list=clss_tor_relay address=72.60.1.151
 add list=clss_tor_relay address=72.60.185.139
 add list=clss_tor_relay address=72.62.90.136
@@ -6313,7 +6263,6 @@ add list=clss_tor_relay address=75.219.92.177
 add list=clss_tor_relay address=75.223.69.111
 add list=clss_tor_relay address=75.229.35.86
 add list=clss_tor_relay address=75.230.192.35
-add list=clss_tor_relay address=75.233.203.149
 add list=clss_tor_relay address=75.240.244.134
 add list=clss_tor_relay address=75.241.103.21
 add list=clss_tor_relay address=75.247.12.148
@@ -6321,14 +6270,14 @@ add list=clss_tor_relay address=75.253.70.240
 add list=clss_tor_relay address=75.35.218.235
 add list=clss_tor_relay address=75.88.184.126
 add list=clss_tor_relay address=76.10.157.54
+add list=clss_tor_relay address=76.102.118.125
+add list=clss_tor_relay address=76.141.211.65
 add list=clss_tor_relay address=76.167.253.106
-add list=clss_tor_relay address=76.171.101.140
 add list=clss_tor_relay address=76.176.33.196
 add list=clss_tor_relay address=76.217.32.103
 add list=clss_tor_relay address=76.234.124.250
 add list=clss_tor_relay address=76.235.207.28
 add list=clss_tor_relay address=76.252.151.48
-add list=clss_tor_relay address=76.9.75.240
 add list=clss_tor_relay address=77.0.79.45
 add list=clss_tor_relay address=77.109.104.227
 add list=clss_tor_relay address=77.109.139.31
@@ -6350,7 +6299,6 @@ add list=clss_tor_relay address=77.174.164.37
 add list=clss_tor_relay address=77.174.188.151
 add list=clss_tor_relay address=77.174.62.158
 add list=clss_tor_relay address=77.175.139.47
-add list=clss_tor_relay address=77.195.249.178
 add list=clss_tor_relay address=77.2.147.43
 add list=clss_tor_relay address=77.20.3.30
 add list=clss_tor_relay address=77.20.42.234
@@ -6366,7 +6314,6 @@ add list=clss_tor_relay address=77.239.97.46
 add list=clss_tor_relay address=77.240.107.71
 add list=clss_tor_relay address=77.244.190.85
 add list=clss_tor_relay address=77.248.16.45
-add list=clss_tor_relay address=77.30.180.246
 add list=clss_tor_relay address=77.33.30.200
 add list=clss_tor_relay address=77.37.106.245
 add list=clss_tor_relay address=77.42.21.246
@@ -6392,6 +6339,7 @@ add list=clss_tor_relay address=77.73.67.21
 add list=clss_tor_relay address=77.73.68.100
 add list=clss_tor_relay address=77.73.71.241
 add list=clss_tor_relay address=77.74.96.43
+add list=clss_tor_relay address=77.8.163.153
 add list=clss_tor_relay address=77.81.247.72
 add list=clss_tor_relay address=77.83.198.149
 add list=clss_tor_relay address=77.83.198.213
@@ -6478,14 +6426,13 @@ add list=clss_tor_relay address=79.212.87.11
 add list=clss_tor_relay address=79.215.173.234
 add list=clss_tor_relay address=79.221.135.79
 add list=clss_tor_relay address=79.223.218.75
-add list=clss_tor_relay address=79.225.92.97
 add list=clss_tor_relay address=79.241.239.17
 add list=clss_tor_relay address=79.245.18.42
 add list=clss_tor_relay address=79.247.184.61
 add list=clss_tor_relay address=79.249.190.50
 add list=clss_tor_relay address=79.249.228.18
-add list=clss_tor_relay address=79.250.71.241
-add list=clss_tor_relay address=79.255.160.206
+add list=clss_tor_relay address=79.250.72.208
+add list=clss_tor_relay address=79.254.77.127
 add list=clss_tor_relay address=79.45.182.7
 add list=clss_tor_relay address=79.54.12.88
 add list=clss_tor_relay address=79.99.41.17
@@ -6503,7 +6450,7 @@ add list=clss_tor_relay address=8.42.76.68
 add list=clss_tor_relay address=80.108.222.2
 add list=clss_tor_relay address=80.115.102.248
 add list=clss_tor_relay address=80.123.93.213
-add list=clss_tor_relay address=80.128.143.31
+add list=clss_tor_relay address=80.128.142.178
 add list=clss_tor_relay address=80.128.23.194
 add list=clss_tor_relay address=80.129.43.112
 add list=clss_tor_relay address=80.130.150.120
@@ -6718,7 +6665,6 @@ add list=clss_tor_relay address=82.68.35.15
 add list=clss_tor_relay address=82.68.49.227
 add list=clss_tor_relay address=82.68.90.23
 add list=clss_tor_relay address=83.0.60.229
-add list=clss_tor_relay address=83.104.94.67
 add list=clss_tor_relay address=83.108.183.91
 add list=clss_tor_relay address=83.108.190.156
 add list=clss_tor_relay address=83.136.107.114
@@ -6772,9 +6718,8 @@ add list=clss_tor_relay address=83.99.98.204
 add list=clss_tor_relay address=84.1.54.126
 add list=clss_tor_relay address=84.114.114.149
 add list=clss_tor_relay address=84.118.215.205
-add list=clss_tor_relay address=84.139.27.98
+add list=clss_tor_relay address=84.139.10.160
 add list=clss_tor_relay address=84.143.116.36
-add list=clss_tor_relay address=84.143.210.252
 add list=clss_tor_relay address=84.149.15.14
 add list=clss_tor_relay address=84.151.56.201
 add list=clss_tor_relay address=84.156.113.202
@@ -6784,6 +6729,7 @@ add list=clss_tor_relay address=84.167.242.252
 add list=clss_tor_relay address=84.167.52.188
 add list=clss_tor_relay address=84.168.126.144
 add list=clss_tor_relay address=84.168.196.37
+add list=clss_tor_relay address=84.172.121.177
 add list=clss_tor_relay address=84.173.146.218
 add list=clss_tor_relay address=84.174.248.81
 add list=clss_tor_relay address=84.185.152.144
@@ -6852,7 +6798,6 @@ add list=clss_tor_relay address=84.252.122.96
 add list=clss_tor_relay address=84.252.123.112
 add list=clss_tor_relay address=84.254.100.57
 add list=clss_tor_relay address=84.254.84.202
-add list=clss_tor_relay address=84.32.223.81
 add list=clss_tor_relay address=84.32.51.0
 add list=clss_tor_relay address=84.33.244.13
 add list=clss_tor_relay address=84.38.130.45
@@ -6884,7 +6829,6 @@ add list=clss_tor_relay address=85.121.5.97
 add list=clss_tor_relay address=85.122.127.90
 add list=clss_tor_relay address=85.130.157.152
 add list=clss_tor_relay address=85.131.116.205
-add list=clss_tor_relay address=85.139.252.25
 add list=clss_tor_relay address=85.148.39.202
 add list=clss_tor_relay address=85.148.59.217
 add list=clss_tor_relay address=85.16.188.92
@@ -6967,7 +6911,6 @@ add list=clss_tor_relay address=85.72.184.91
 add list=clss_tor_relay address=85.90.197.111
 add list=clss_tor_relay address=85.93.218.204
 add list=clss_tor_relay address=85.93.9.117
-add list=clss_tor_relay address=85.96.198.54
 add list=clss_tor_relay address=86.100.231.161
 add list=clss_tor_relay address=86.107.168.235
 add list=clss_tor_relay address=86.111.152.114
@@ -6991,7 +6934,6 @@ add list=clss_tor_relay address=86.173.74.14
 add list=clss_tor_relay address=86.174.96.87
 add list=clss_tor_relay address=86.178.139.198
 add list=clss_tor_relay address=86.18.242.248
-add list=clss_tor_relay address=86.198.201.59
 add list=clss_tor_relay address=86.2.246.205
 add list=clss_tor_relay address=86.207.135.11
 add list=clss_tor_relay address=86.220.250.42
@@ -7079,13 +7021,14 @@ add list=clss_tor_relay address=87.149.65.96
 add list=clss_tor_relay address=87.158.134.235
 add list=clss_tor_relay address=87.162.244.194
 add list=clss_tor_relay address=87.165.215.113
+add list=clss_tor_relay address=87.168.119.94
 add list=clss_tor_relay address=87.175.57.61
 add list=clss_tor_relay address=87.185.208.84
 add list=clss_tor_relay address=87.197.155.112
 add list=clss_tor_relay address=87.20.136.18
 add list=clss_tor_relay address=87.212.171.40
 add list=clss_tor_relay address=87.222.193.193
-add list=clss_tor_relay address=87.223.227.85
+add list=clss_tor_relay address=87.223.228.140
 add list=clss_tor_relay address=87.229.115.23
 add list=clss_tor_relay address=87.229.34.12
 add list=clss_tor_relay address=87.229.34.20
@@ -7106,6 +7049,7 @@ add list=clss_tor_relay address=87.253.43.77
 add list=clss_tor_relay address=87.4.25.231
 add list=clss_tor_relay address=87.61.100.125
 add list=clss_tor_relay address=87.89.156.178
+add list=clss_tor_relay address=87.92.70.121
 add list=clss_tor_relay address=87.98.237.152
 add list=clss_tor_relay address=87.98.242.239
 add list=clss_tor_relay address=88.11.141.82
@@ -7137,7 +7081,6 @@ add list=clss_tor_relay address=88.216.2.90
 add list=clss_tor_relay address=88.217.33.137
 add list=clss_tor_relay address=88.65.76.101
 add list=clss_tor_relay address=88.74.194.199
-add list=clss_tor_relay address=88.78.154.227
 add list=clss_tor_relay address=88.80.135.53
 add list=clss_tor_relay address=88.80.135.55
 add list=clss_tor_relay address=88.80.135.61
@@ -7227,6 +7170,7 @@ add list=clss_tor_relay address=89.244.216.254
 add list=clss_tor_relay address=89.245.232.210
 add list=clss_tor_relay address=89.246.48.47
 add list=clss_tor_relay address=89.247.27.199
+add list=clss_tor_relay address=89.34.230.17
 add list=clss_tor_relay address=89.36.161.29
 add list=clss_tor_relay address=89.36.231.129
 add list=clss_tor_relay address=89.36.231.204
@@ -7281,12 +7225,11 @@ add list=clss_tor_relay address=90.211.180.95
 add list=clss_tor_relay address=90.224.78.33
 add list=clss_tor_relay address=90.226.147.175
 add list=clss_tor_relay address=90.249.33.54
-add list=clss_tor_relay address=90.25.50.121
 add list=clss_tor_relay address=90.3.155.53
 add list=clss_tor_relay address=90.38.130.241
 add list=clss_tor_relay address=90.38.142.222
-add list=clss_tor_relay address=90.49.166.252
 add list=clss_tor_relay address=90.52.27.41
+add list=clss_tor_relay address=90.70.11.108
 add list=clss_tor_relay address=90.74.187.82
 add list=clss_tor_relay address=90.87.16.3
 add list=clss_tor_relay address=90.94.172.154
@@ -7445,7 +7388,6 @@ add list=clss_tor_relay address=92.35.66.236
 add list=clss_tor_relay address=92.38.162.88
 add list=clss_tor_relay address=92.4.160.173
 add list=clss_tor_relay address=92.42.14.204
-add list=clss_tor_relay address=92.46.82.84
 add list=clss_tor_relay address=92.58.45.117
 add list=clss_tor_relay address=92.60.36.222
 add list=clss_tor_relay address=92.60.37.105
@@ -7488,7 +7430,6 @@ add list=clss_tor_relay address=93.221.49.189
 add list=clss_tor_relay address=93.231.123.205
 add list=clss_tor_relay address=93.231.5.190
 add list=clss_tor_relay address=93.239.150.126
-add list=clss_tor_relay address=93.55.235.232
 add list=clss_tor_relay address=93.65.82.176
 add list=clss_tor_relay address=93.88.127.74
 add list=clss_tor_relay address=93.90.194.106
@@ -7606,6 +7547,7 @@ add list=clss_tor_relay address=94.177.8.200
 add list=clss_tor_relay address=94.177.8.86
 add list=clss_tor_relay address=94.199.214.229
 add list=clss_tor_relay address=94.21.138.96
+add list=clss_tor_relay address=94.21.88.237
 add list=clss_tor_relay address=94.228.209.215
 add list=clss_tor_relay address=94.23.121.150
 add list=clss_tor_relay address=94.23.148.66
@@ -7636,7 +7578,6 @@ add list=clss_tor_relay address=94.26.73.162
 add list=clss_tor_relay address=94.46.171.151
 add list=clss_tor_relay address=94.46.171.221
 add list=clss_tor_relay address=94.46.171.245
-add list=clss_tor_relay address=94.50.246.10
 add list=clss_tor_relay address=94.60.190.164
 add list=clss_tor_relay address=94.61.86.79
 add list=clss_tor_relay address=94.71.30.7
@@ -7644,19 +7585,16 @@ add list=clss_tor_relay address=94.72.103.33
 add list=clss_tor_relay address=94.72.104.135
 add list=clss_tor_relay address=94.72.111.123
 add list=clss_tor_relay address=94.75.225.81
-add list=clss_tor_relay address=94.98.218.16
 add list=clss_tor_relay address=95.102.144.31
 add list=clss_tor_relay address=95.102.173.161
 add list=clss_tor_relay address=95.111.230.178
 add list=clss_tor_relay address=95.111.230.76
 add list=clss_tor_relay address=95.111.243.215
-add list=clss_tor_relay address=95.119.254.103
 add list=clss_tor_relay address=95.128.43.164
-add list=clss_tor_relay address=95.131.202.24
 add list=clss_tor_relay address=95.135.208.24
 add list=clss_tor_relay address=95.141.32.200
 add list=clss_tor_relay address=95.143.193.125
-add list=clss_tor_relay address=95.145.17.4
+add list=clss_tor_relay address=95.145.17.100
 add list=clss_tor_relay address=95.153.31.202
 add list=clss_tor_relay address=95.153.31.26
 add list=clss_tor_relay address=95.153.31.38
@@ -7725,6 +7663,7 @@ add list=clss_tor_relay address=95.216.33.58
 add list=clss_tor_relay address=95.216.96.44
 add list=clss_tor_relay address=95.217.104.226
 add list=clss_tor_relay address=95.217.112.245
+add list=clss_tor_relay address=95.217.156.221
 add list=clss_tor_relay address=95.217.161.66
 add list=clss_tor_relay address=95.217.162.68
 add list=clss_tor_relay address=95.217.187.19
@@ -7750,9 +7689,9 @@ add list=clss_tor_relay address=96.2.100.72
 add list=clss_tor_relay address=96.20.102.87
 add list=clss_tor_relay address=96.225.91.94
 add list=clss_tor_relay address=96.227.69.26
-add list=clss_tor_relay address=96.228.40.211
 add list=clss_tor_relay address=96.231.60.5
 add list=clss_tor_relay address=96.232.20.27
+add list=clss_tor_relay address=96.234.124.107
 add list=clss_tor_relay address=96.239.102.27
 add list=clss_tor_relay address=96.245.159.66
 add list=clss_tor_relay address=96.245.227.46
@@ -7968,8 +7907,6 @@ add list=clss_tor_relay address=98.15.18.40
 add list=clss_tor_relay address=98.157.194.178
 add list=clss_tor_relay address=98.165.82.249
 add list=clss_tor_relay address=98.168.31.145
-add list=clss_tor_relay address=98.18.158.1
-add list=clss_tor_relay address=98.181.97.234
 add list=clss_tor_relay address=98.206.28.99
 add list=clss_tor_relay address=98.217.182.244
 add list=clss_tor_relay address=98.232.88.235
@@ -7982,7 +7919,6 @@ add list=clss_tor_relay address=99.124.185.197
 add list=clss_tor_relay address=99.125.87.67
 add list=clss_tor_relay address=99.183.197.154
 add list=clss_tor_relay address=99.235.131.22
-add list=clss_tor_relay address=99.250.197.11
 add list=clss_tor_relay address=99.33.43.142
 add list=clss_tor_relay address=99.7.53.93
 add list=clss_tor_relay address=99.74.173.137
