@@ -1,4 +1,4 @@
-# Generated on Fri May 15 22:03:06 UTC 2026 by coding.lifestyle Studio
+# Generated on Sat May 16 10:02:57 UTC 2026 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_exits address=114.35.245.150
@@ -343,6 +343,7 @@ add list=clss_tor_exits address=185.231.33.38
 add list=clss_tor_exits address=185.233.100.23
 add list=clss_tor_exits address=185.235.138.167
 add list=clss_tor_exits address=185.235.146.29
+add list=clss_tor_exits address=185.241.208.136
 add list=clss_tor_exits address=185.241.208.71
 add list=clss_tor_exits address=185.241.208.81
 add list=clss_tor_exits address=185.241.208.93
@@ -594,6 +595,11 @@ add list=clss_tor_exits address=216.73.159.75
 add list=clss_tor_exits address=216.9.225.157
 add list=clss_tor_exits address=217.12.221.131
 add list=clss_tor_exits address=220.135.36.173
+add list=clss_tor_exits address=23.128.248.160
+add list=clss_tor_exits address=23.128.248.161
+add list=clss_tor_exits address=23.128.248.162
+add list=clss_tor_exits address=23.128.248.163
+add list=clss_tor_exits address=23.128.248.164
 add list=clss_tor_exits address=23.129.64.130
 add list=clss_tor_exits address=23.129.64.131
 add list=clss_tor_exits address=23.129.64.132
@@ -694,7 +700,6 @@ add list=clss_tor_exits address=23.129.64.99
 add list=clss_tor_exits address=23.134.88.60
 add list=clss_tor_exits address=23.134.88.61
 add list=clss_tor_exits address=23.137.105.248
-add list=clss_tor_exits address=23.137.248.100
 add list=clss_tor_exits address=23.137.251.187
 add list=clss_tor_exits address=23.137.253.125
 add list=clss_tor_exits address=23.137.254.244
@@ -890,6 +895,7 @@ add list=clss_tor_exits address=45.137.201.5
 add list=clss_tor_exits address=45.137.201.67
 add list=clss_tor_exits address=45.137.69.13
 add list=clss_tor_exits address=45.137.69.5
+add list=clss_tor_exits address=45.137.69.9
 add list=clss_tor_exits address=45.137.70.158
 add list=clss_tor_exits address=45.138.16.125
 add list=clss_tor_exits address=45.138.16.234
