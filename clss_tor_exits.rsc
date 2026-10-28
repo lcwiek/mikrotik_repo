@@ -1,4 +1,4 @@
-# Generated on Wed Oct 28 11:02:49 UTC 2026 by coding.lifestyle Studio
+# Generated on Wed Oct 28 23:02:51 UTC 2026 by coding.lifestyle Studio
 # https://github.com/lcwiek/mikrotik_repo
 /ip firewall address-list
 add list=clss_tor_exits address=112.145.239.76
@@ -9,10 +9,8 @@ add list=clss_tor_exits address=118.67.196.83
 add list=clss_tor_exits address=123.253.35.32
 add list=clss_tor_exits address=125.212.241.131
 add list=clss_tor_exits address=128.31.0.13
-add list=clss_tor_exits address=13.143.167.5
 add list=clss_tor_exits address=136.244.111.163
 add list=clss_tor_exits address=138.197.124.121
-add list=clss_tor_exits address=138.226.243.224
 add list=clss_tor_exits address=138.59.18.110
 add list=clss_tor_exits address=139.162.208.30
 add list=clss_tor_exits address=139.99.172.11
@@ -206,6 +204,7 @@ add list=clss_tor_exits address=185.186.76.110
 add list=clss_tor_exits address=185.191.204.254
 add list=clss_tor_exits address=185.193.52.180
 add list=clss_tor_exits address=185.195.71.244
+add list=clss_tor_exits address=185.207.107.130
 add list=clss_tor_exits address=185.207.107.216
 add list=clss_tor_exits address=185.220.100.240
 add list=clss_tor_exits address=185.220.100.241
@@ -410,6 +409,7 @@ add list=clss_tor_exits address=185.82.219.109
 add list=clss_tor_exits address=188.239.191.25
 add list=clss_tor_exits address=188.68.41.191
 add list=clss_tor_exits address=188.68.49.235
+add list=clss_tor_exits address=188.68.52.231
 add list=clss_tor_exits address=190.103.179.5
 add list=clss_tor_exits address=190.103.179.98
 add list=clss_tor_exits address=190.120.229.2
@@ -521,7 +521,6 @@ add list=clss_tor_exits address=194.15.216.102
 add list=clss_tor_exits address=194.32.107.172
 add list=clss_tor_exits address=194.36.190.112
 add list=clss_tor_exits address=194.48.248.57
-add list=clss_tor_exits address=194.53.137.102
 add list=clss_tor_exits address=194.53.137.156
 add list=clss_tor_exits address=194.53.137.42
 add list=clss_tor_exits address=194.55.167.14
@@ -529,13 +528,15 @@ add list=clss_tor_exits address=195.176.3.23
 add list=clss_tor_exits address=195.176.3.24
 add list=clss_tor_exits address=195.47.238.50
 add list=clss_tor_exits address=195.88.74.206
-add list=clss_tor_exits address=198.167.206.161
+add list=clss_tor_exits address=198.167.206.192
 add list=clss_tor_exits address=198.46.166.157
 add list=clss_tor_exits address=198.46.168.17
 add list=clss_tor_exits address=198.58.107.53
 add list=clss_tor_exits address=198.96.155.3
 add list=clss_tor_exits address=198.98.50.199
+add list=clss_tor_exits address=198.98.57.151
 add list=clss_tor_exits address=198.98.61.60
+add list=clss_tor_exits address=198.98.62.158
 add list=clss_tor_exits address=199.19.77.18
 add list=clss_tor_exits address=2.56.10.36
 add list=clss_tor_exits address=200.122.181.2
@@ -1069,6 +1070,10 @@ add list=clss_tor_exits address=61.220.100.193
 add list=clss_tor_exits address=62.133.45.2
 add list=clss_tor_exits address=62.182.84.146
 add list=clss_tor_exits address=64.188.93.178
+add list=clss_tor_exits address=64.190.76.10
+add list=clss_tor_exits address=64.190.76.11
+add list=clss_tor_exits address=64.190.76.12
+add list=clss_tor_exits address=64.190.76.13
 add list=clss_tor_exits address=64.190.76.14
 add list=clss_tor_exits address=64.190.76.2
 add list=clss_tor_exits address=64.190.76.3
